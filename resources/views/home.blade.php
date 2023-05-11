@@ -19,7 +19,7 @@
 
     <div class="container">
 
-        @foreach ($movies as $movie)
+       @foreach ($movies as $movie)
         <ul class="list-group">
             <li class="list-group-item">{{$movie->title}}</li>
             <li class="list-group-item">{{$movie->original_title}}</li>
@@ -28,6 +28,7 @@
             <li class="list-group-item">{{$movie->vote}}</li>
         </ul>          
         @endforeach
+
 
     </div>
 
